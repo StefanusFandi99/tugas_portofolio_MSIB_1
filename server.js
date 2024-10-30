@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
-
+const path = require('path');
 
 const db = mysql.createConnection({
     host: 'localhost',
@@ -40,4 +40,15 @@ app.post('/submit-form', (req, res) => {
 const PORT = 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
+});
+
+app.use(express.static(path.join(__dirname, 'asset')));
+
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'asset', 'index.html'));
+});
+
+app.listen(3000, () => {
+  console.log('Server berjalan di http://localhost:3000');
 });
