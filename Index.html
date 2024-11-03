@@ -1,142 +1,142 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
 
-<body class="bg-gray-900 text-white font-sans h-[100vh]">
-    <!-- Navbar -->
-    <nav class="flex justify-center space-x-10 py-6 bg-gray-900 h-[10vh]">
-        <a href="#home" class="text-lime-400 hover:text-white">Home</a>
-        <a href="#about" class="text-lime-400 hover:text-white">About</a>
-        <a href="#projects" class="text-lime-400 hover:text-white">Projects</a>
-        <a href="#contact" class="text-lime-400 hover:text-white">Contact</a>
-    </nav>
+    <body class="bg-gray-900 text-white font-sans h-[100vh]">
+        <!-- Navbar -->
+        <nav class="flex justify-center space-x-10 py-6 bg-gray-900 h-[10vh]">
+            <a href="#home" class="text-lime-400 hover:text-white">Home</a>
+            <a href="#about" class="text-lime-400 hover:text-white">About</a>
+            <a href="#projects" class="text-lime-400 hover:text-white">Projects</a>
+            <a href="#contact" class="text-lime-400 hover:text-white">Contact</a>
+        </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="flex flex-col items-center text-center py-20 bg-gray-900 ">
-        <img class="w-24 h-100 rounded-lg" src="asset/profile.jpeg" alt="">
-        <h1 class="text-4xl text-white font-bold">Hey There I'm <br><span class="text-lime-400 text-6xl">STEFANUS FANDI WIBOWO</span>
-        </h1>
-        <p class="text-gray-400 text-lg mt-2">Currently Studying Information Technology at STMIK WIDYA UTAMA Purwokerto
-        </p>
-        <div class="flex space-x-4 mt-4">
-            <a href="#" class="text-lime-400 text-2xl"><img class="w-12 h-100" src="asset/linkedin.png" alt="" class=""></a>
-            <a href="#" class="text-lime-400 text-2xl"><img class="w-11 h-100" src="asset/github.png" alt=""></a>
-        </div>
-    </section>
+        <!-- Hero -->
+        <section id="home" class="flex flex-col items-center text-center py-20 bg-gray-900 ">
+            <img class="w-24 h-100 rounded-lg" src="asset/profile.jpeg" alt="">
+            <h1 class="text-4xl text-white font-bold">Hey There I'm <br><span class="text-lime-400 text-6xl">STEFANUS FANDI WIBOWO</span>
+            </h1>
+            <p class="text-gray-400 text-lg mt-2">Currently Studying Information Technology at STMIK WIDYA UTAMA Purwokerto
+            </p>
+            <div class="flex space-x-4 mt-4">
+                <a href="https://www.linkedin.com/in/stefanus-fandi-wibowo-312a94245/" class="text-lime-400 text-2xl"><img class="w-12 h-100" src="asset/linkedin.png" alt="" class=""></a>
+                <a href="https://github.com/StefanusFandi99" class="text-lime-400 text-2xl"><img class="w-11 h-100" src="asset/github.png" alt=""></a>
+            </div>
+        </section>
 
 
-    <!-- About Section -->
-    <section id="about" class="bg-lime-400 text-gray-900 py-12">
-        <div class="max-w-2xl mx-auto text-center">
-            <h2 class="text-3xl font-bold">About</h2>
-            <p class="mt-4 text-lg">I am Stefanus Fandi Wibowo, a student at STMIK WIDYA UTAMA Purwokerto with a strong
-                interest in learning within the IT field, particularly in web development. My educational background has
-                provided me with a solid understanding of programming and foundational network technology. I am skilled
-                in using PHP (both native and with the Laravel framework) for creating landing pages, login systems, and
-                blogging platforms.
-            <p>
-        </div>
-    </section>
+        <!-- About -->
+        <section id="about" class="bg-lime-400 text-gray-900 py-12">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-3xl font-bold">About</h2>
+                <p class="mt-4 text-lg">I am Stefanus Fandi Wibowo, a student at STMIK WIDYA UTAMA Purwokerto with a strong
+                    interest in learning within the IT field, particularly in web development. My educational background has
+                    provided me with a solid understanding of programming and foundational network technology. I am skilled
+                    in using PHP (both native and with the Laravel framework) for creating landing pages, login systems, and
+                    blogging platforms.
+                <p>
+            </div>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="bg-gray-900 text-white py-12 ">
-        <div class="max-w-5xl mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-6">Recent Projects</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <!-- Project 1 -->
-                <div class="bg-gray-800 p-6 rounded-lg">
-                    <h3 class="text-xl font-bold">Portfolio</h3>
-                    <p class="mt-2 text-gray-400">Crafted as a reflection of my web development journey, my portfolio
-                        highlights a curated selection of projects, showcasing expertise in technologies like Laravel,
-                        JavaScript, and Bootstrap.</p>
-                </div>
-                <!-- Project 2 -->
-                <div class="bg-gray-800 p-6 rounded-lg">
-                    <h3 class="text-xl font-bold">Calculator</h3>
-                    <p class="mt-2 text-gray-400">Creating a calculator app using Flutter involves designing a user
-                        interface (UI) for number input, performing arithmetic operations, and displaying results. </p>
-                </div>
-                <!-- Project 3 -->
-                <div class="bg-gray-800 p-6 rounded-lg">
-                    <h3 class="text-xl font-bold">BorrowBooks App</h3>
-                    <p class="mt-2 text-gray-400">Creating a user-friendly mobile app using Flutter designed to
-                        streamline the book
-                        borrowing process. Easily search for books, check availability, and place holds directly from
-                        your device.</p>
+        <!-- Projects -->
+        <section id="projects" class="bg-gray-900 text-white py-12 ">
+            <div class="max-w-5xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-6">Recent Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Project 1 -->
+                    <div class="bg-gray-800 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold">Portfolio</h3>
+                        <p class="mt-2 text-gray-400">Crafted as a reflection of my web development journey, my portfolio
+                            highlights a curated selection of projects, showcasing expertise in technologies like Laravel,
+                            JavaScript, and Bootstrap.</p>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="bg-gray-800 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold">Calculator</h3>
+                        <p class="mt-2 text-gray-400">Creating a calculator app using Flutter involves designing a user
+                            interface (UI) for number input, performing arithmetic operations, and displaying results. </p>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="bg-gray-800 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold">BorrowBooks App</h3>
+                        <p class="mt-2 text-gray-400">Creating a user-friendly mobile app using Flutter designed to
+                            streamline the book
+                            borrowing process. Easily search for books, check availability, and place holds directly from
+                            your device.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="bg-lime-400 text-gray-900 py-12 ">
-        <div class="max-w-2xl mx-auto text-center">
-            <h2 class="text-3xl font-bold">Get in Touch</h2>
-            <p class="mt-4 text-lg">I'm open to collaboration and feedback. Feel free to reach out and share your
-                thoughts.
-            </p>
-            <form id="contactForm" class="mt-8 space-y-4">
-                <input type="text" name="name" placeholder="Name"
-                    class="w-full p-3 bg-gray-900 text-lime-400 border border-gray-700 rounded-lg" required>
-                <input type="email" name="email" placeholder="Email"
-                    class="w-full p-3 bg-gray-900 text-lime-400 border border-gray-700 rounded-lg" required>
-                <textarea name="message" placeholder="Message" rows="4"
-                    class="w-full p-3 bg-gray-900 text-lime-400 border border-gray-700 rounded-lg" required></textarea>
-                <button type="submit"
-                    class="w-full py-3 bg-gray-900 text-lime-400 font-bold rounded-lg hover:bg-gray-700">Send</button>
-            </form>
-            <p id="responseMessage" class="mt-4"></p>
-        </div>
-    </section>
+        <!-- Contact -->
+        <section id="contact" class="bg-lime-400 text-gray-900 py-12 ">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-3xl font-bold">Get in Touch</h2>
+                <p class="mt-4 text-lg">I'm open to collaboration and feedback. Feel free to reach out and share your
+                    thoughts.
+                </p>
+                <form id="contactForm" class="mt-8 space-y-4">
+                    <input type="text" name="name" placeholder="Name"
+                        class="w-full p-3 bg-gray-900 text-lime-400 border border-gray-700 rounded-lg" required>
+                    <input type="email" name="email" placeholder="Email"
+                        class="w-full p-3 bg-gray-900 text-lime-400 border border-gray-700 rounded-lg" required>
+                    <textarea name="message" placeholder="Message" rows="4"
+                        class="w-full p-3 bg-gray-900 text-lime-400 border border-gray-700 rounded-lg" required></textarea>
+                    <button type="submit"
+                        class="w-full py-3 bg-gray-900 text-lime-400 font-bold rounded-lg hover:bg-gray-700">Send</button>
+                </form>
+                <p id="responseMessage" class="mt-4"></p>
+            </div>
+        </section>
 
-    <script>
-        document.getElementById("contactForm").addEventListener("submit", function (event) {
-            event.preventDefault();
+        <script>
+            document.getElementById("contactForm").addEventListener("submit", function (event) {
+                event.preventDefault();
 
-            const formData = {
-                name: document.getElementsByName("name")[0].value,
-                email: document.getElementsByName("email")[0].value,
-                message: document.getElementsByName("message")[0].value
-            };
+                const formData = {
+                    name: document.getElementsByName("name")[0].value,
+                    email: document.getElementsByName("email")[0].value,
+                    message: document.getElementsByName("message")[0].value
+                };
 
-            fetch("http://localhost:3000/submit-form", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify(formData)
-            })
-                .then(response => response.json())
-                .then(data => {
-                    document.getElementById("responseMessage").innerText = data.message;
-                    document.getElementById("contactForm").reset();
+                fetch("http://localhost:3000/submit-form", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(formData)
                 })
-                .catch(error => {
-                    console.error("Error:", error);
-                    document.getElementById("responseMessage").innerText = "Failed to send message.";
-                });
-        });
-    </script>
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById("responseMessage").innerText = data.message;
+                        document.getElementById("contactForm").reset();
+                    })
+                    .catch(error => {
+                        console.error("Error:", error);
+                        document.getElementById("responseMessage").innerText = "Failed to send message.";
+                    });
+            });
+        </script>
 
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-center py-6" >
-        <p class="text-lime-400 font-bold text-2xl">Stefanus.</p>
-        <p class="text-gray-400">I'm a front-end web developer and project manager who lives and breathes design. This
-            website is a labor of love, crafted with passion and care.</p>
-        <div class="flex justify-center space-x-4 mt-4">
-            <a href="#" class="text-lime-400 text-2xl"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="text-lime-400 text-2xl"><i class="fab fa-linkedin"></i></a>
-            <a href="#" class="text-lime-400 text-2xl"><i class="fab fa-github"></i></a>
-        </div>
-        <p class="text-gray-400 mt-2">© 2024 Stefanus Fandi Wibowo </p>
-    </footer>
-</body>
+        <!-- Footer -->
+        <footer class="bg-gray-900 text-center py-6" >
+            <p class="text-lime-400 font-bold text-2xl">Stefanus.</p>
+            <p class="text-gray-400">I'm a front-end web developer and project manager who lives and breathes design. This
+                website is a labor of love, crafted with passion and care.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="text-lime-400 text-2xl"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-lime-400 text-2xl"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-lime-400 text-2xl"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="text-gray-400 mt-2">© 2024 Stefanus Fandi Wibowo </p>
+        </footer>
+    </body>
 
-</html>
+    </html>
