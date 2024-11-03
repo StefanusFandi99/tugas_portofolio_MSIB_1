@@ -12,7 +12,7 @@ const db = mysql.createConnection({
     host: 'localhost',
     user: 'root', 
     password: '', 
-    database: 'contact_form_db'
+    database: 'contact_portofolio'
 });
 
 db.connect((err) => {
@@ -26,7 +26,7 @@ db.connect((err) => {
 
 app.post('/submit-form', (req, res) => {
     const { name, email, message } = req.body;
-    const sql = 'INSERT INTO contact_messages (name, email, message) VALUES (?, ?, ?)';
+    const sql = 'INSERT INTO contact_portofolio (name, email, message) VALUES (?, ?, ?)';
     db.query(sql, [name, email, message], (err, result) => {
         if (err) {
             console.error('Error saving message:', err);
